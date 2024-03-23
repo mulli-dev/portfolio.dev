@@ -26,6 +26,19 @@ const Projects = () => {
           title="Youtube Clone"
           description="Youtube Clone Using React, Tailwind CSS, TypeScript"
         />
+      </div>
+      &nbsp,&nbsp
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/mernestate.png"
+          title="Real Estate Website"
+          description="Real Estate  Using MongoDB, Express, React, Nodejs"
+        />
+        <ProjectCard
+          src="/precious.png"
+          title="Fruits Sellings MERN Website"
+          description="Modern Web Application Using MongoDB, Express, React, Nodejs"
+        />
         <ProjectCard
           src="/mernestate.png"
           title="Real Estate Website"
