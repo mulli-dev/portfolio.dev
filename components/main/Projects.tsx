@@ -40,9 +40,9 @@ const Projects = () => {
           description="Modern Web Application Using MongoDB, Express, React, Nodejs"
         />
         <ProjectCard
-          src="/mernestate.png"
-          title="Real Estate Website"
-          description="Real Estate  Using MongoDB, Express, React, Nodejs"
+          src="/mern auth.png"
+          title="Auth Application"
+          description="Auth Application Using MongoDB, Express, React, Nodejs"
         />
       </div>
     </div>
