@@ -45,6 +45,24 @@ const Projects = () => {
           description="Auth Application Using MongoDB, Express, React, Nodejs"
         />
       </div>
+      &nbsp,&nbsp
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/grovy.png"
+          title=" Grocery Store Ecommerce "
+          description=" Build Using HTML, CSS, JavaScript, PHP DPO"
+        />
+        <ProjectCard
+          src="/grovy.png"
+          title="Auth Application"
+          description="Auth Application Using MongoDB, Express, React, Nodejs"
+        />
+        <ProjectCard
+          src="/grovy.png"
+          title="Auth Application"
+          description="Auth Application Using MongoDB, Express, React, Nodejs"
+        />
+      </div>
     </div>
   );
 };
