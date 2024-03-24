@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
 
             <a
-              href="https://github.com"
+              href=" https://github.com/JacobMulli "
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <FaGithub />
