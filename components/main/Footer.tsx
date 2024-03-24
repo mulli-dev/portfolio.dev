@@ -25,7 +25,9 @@ const Footer = () => {
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <FaGithub />
-              <span className="text-[15px] ml-[6px]">Github</span>
+              <span className="text-[15px] ml-[6px] cursor-pointer ">
+                Github
+              </span>
             </a>
 
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
