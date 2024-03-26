@@ -53,14 +53,14 @@ const Projects = () => {
           description=" Build Using HTML, CSS, JavaScript, PHP DPO"
         />
         <ProjectCard
-          src="/grovy.png"
-          title="Auth Application"
-          description="Auth Application Using MongoDB, Express, React, Nodejs"
+          src="/carrent.png"
+          title=" A Car Rental site with A/B TESTING using Next.js 14"
+          description="Build Using Prepr CMS, React, Personalization"
         />
         <ProjectCard
-          src="/grovy.png"
-          title="Auth Application"
-          description="Auth Application Using MongoDB, Express, React, Nodejs"
+          src="/PowerBi.png"
+          title="Annual Pizza Sales Analysis PowerBI Report"
+          description="A good report analysed using  Power BI and SQL Server"
         />
       </div>
     </div>
