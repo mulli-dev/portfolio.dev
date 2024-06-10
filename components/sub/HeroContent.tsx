@@ -58,7 +58,10 @@ const HeroContent = () => {
           rel="noopener noreferrer"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          whileHover={{ color: "#39ff14" }}
+          whileHover={{ color: "#39ff14", borderColor: "#39ff14" }}
+          style={{
+            transition: "border-color 0.3s ease-in-out", // Smooth transition for the border color change
+          }}
         >
           Download CV
         </motion.a>
