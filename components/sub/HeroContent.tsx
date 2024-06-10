@@ -27,6 +27,14 @@ const HeroContent = () => {
     );
   };
 
+  const handleClickLinkedIn = () => {
+    window.open(
+      "https://www.linkedin.com/in/jacobmulli",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <motion.div
       initial="hidden"
@@ -96,6 +104,23 @@ const HeroContent = () => {
             }}
           >
             Github Profile
+            <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg animate-border"></span>
+          </motion.button>
+          <motion.button
+            onClick={handleClickLinkedIn}
+            variants={slideInFromLeft(1.2)}
+            initial="hidden"
+            animate="visible"
+            className=" relative flex items-center justify-center py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg min-w-[150px] border-2 border-transparent"
+            whileHover={{
+              color: "#39ff14",
+              transition: { duration: 0.3 },
+            }}
+            style={{
+              transition: "border-color 0.3s ease-in-out",
+            }}
+          >
+            LinkedIn
             <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg animate-border"></span>
           </motion.button>
         </div>
