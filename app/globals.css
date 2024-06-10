@@ -72,3 +72,28 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Add this CSS in your global styles or a CSS module */
+@keyframes borderAnimation {
+  0% {
+    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+  }
+  25% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  75% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.animate-border {
+  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with button interactions */
+  animation: borderAnimation 1s linear infinite;
+  clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+}

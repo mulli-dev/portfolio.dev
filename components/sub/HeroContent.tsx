@@ -11,6 +11,22 @@ import { SparklesIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 
 const HeroContent = () => {
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1UlYLw3ebZqhUvJmkY1Key7yEQWGnXgDc/view?usp=drive_link",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  const handleClickGithub = () => {
+    window.open(
+      "https://github.com/mulli-dev",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <motion.div
       initial="hidden"
@@ -52,19 +68,37 @@ const HeroContent = () => {
           cybersecurity analyst with expertise in data visualization through
           Power BI.
         </motion.p>
-        <motion.a
-          href="https://drive.google.com/file/d/1UlYLw3ebZqhUvJmkY1Key7yEQWGnXgDc/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          whileHover={{ color: "#39ff14", borderColor: "#39ff14" }}
-          style={{
-            transition: "border-color 0.3s ease-in-out", // Smooth transition for the border color change
-          }}
-        >
-          Download CV
-        </motion.a>
+        <div className="flex space-x-4">
+          <motion.button
+            onClick={handleClick}
+            variants={slideInFromLeft(1)}
+            className=" relative flex items-center justify-center py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg min-w-[150px] border-2 border-transparent "
+            whileHover={{ color: "#39ff14", transition: { duration: 0.3 } }}
+            style={{
+              transition: "border-color 0.3s ease-in-out", // Smooth transition for the border color change
+            }}
+          >
+            Download CV
+            <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg animate-border"></span>
+          </motion.button>
+          <motion.button
+            onClick={handleClickGithub}
+            variants={slideInFromLeft(1.2)}
+            initial="hidden"
+            animate="visible"
+            className="relative py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] border-2 border-transparent"
+            whileHover={{
+              color: "#39ff14",
+              transition: { duration: 0.3 },
+            }}
+            style={{
+              transition: "border-color 0.3s ease-in-out",
+            }}
+          >
+            Github
+            <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg animate-border"></span>
+          </motion.button>
+        </div>
       </div>
 
       <motion.div
