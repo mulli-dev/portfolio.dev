@@ -48,7 +48,18 @@ const Footer = () => {
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaLinkedin />
-              <span className="text-[15px] ml-[6px]">LinkedIn</span>
+              <span className="text-[15px] ml-[6px]">
+                {" "}
+                <a
+                  href="https://www.linkedin.com/in/jacobmulli/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[15px] ml-[6px]"
+                >
+                  {" "}
+                  Linked In{" "}
+                </a>{" "}
+              </span>
             </p>
           </div>
 
@@ -61,9 +72,7 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">Learning about me</span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">
-                jacobmullie2@gmail.com
-              </span>
+              <span className="text-[15px] ml-[6px]">mullidev@gmail.com</span>
             </p>
           </div>
         </div>
