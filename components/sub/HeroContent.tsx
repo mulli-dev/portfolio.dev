@@ -86,7 +86,7 @@ const HeroContent = () => {
             variants={slideInFromLeft(1.2)}
             initial="hidden"
             animate="visible"
-            className="relative py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] border-2 border-transparent"
+            className=" relative flex items-center justify-center py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg min-w-[150px] border-2 border-transparent"
             whileHover={{
               color: "#39ff14",
               transition: { duration: 0.3 },
