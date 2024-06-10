@@ -120,7 +120,7 @@ const HeroContent = () => {
               transition: "border-color 0.3s ease-in-out",
             }}
           >
-            LinkedIn
+            LinkedIn Profile
             <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg animate-border"></span>
           </motion.button>
         </div>
