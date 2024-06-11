@@ -66,14 +66,14 @@ const Projects = () => {
       &nbsp,&nbsp
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/LoanReport.png"
+          src="/LoanReport .png"
           title=" Bank Loan Analysis PowerBI Report"
           description=" A good report analysed using  Power BI and SQL Server"
         />
         <ProjectCard
-          src="/carrent.png"
-          title=" A Car Rental site with A/B TESTING using Next.js 14"
-          description="Build Using Prepr CMS, React, Personalization"
+          src="/Annual Coffee Sales.png"
+          title=" Annual Coffee Sales Analysis using Power Bi and SQL Server"
+          description="Build Using Power BI , SQL, DAX"
         />
         <ProjectCard
           src="/PowerBi.png"
