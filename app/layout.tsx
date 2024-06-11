@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
+import Script from "next/script";
+
 import "./globals.css";
 import StarCanvas from "@/components/main/StarCanvas";
 import Navbar from "@/components/main/Navbar";
@@ -20,13 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <script
-          id="chatway"
-          async
-          src="https://cdn.chatway.app/widget.js?id=grKyVYmXKMUD"
-        ></script>
-      </Head>
+      <script
+        id="chatway"
+        async
+        src="https://cdn.chatway.app/widget.js?id=grKyVYmXKMUD"
+      ></script>
 
       <body
         className={`${inter.className} bg-[#030014]  overflow-y-scroll overflow-x-hidden`}
