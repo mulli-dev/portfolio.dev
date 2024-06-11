@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <script
-          id="pixel-chaty"
+          id="chatway"
           async
-          src="https://cdn.chaty.app/pixel.js?id=GhXkF5oM"
+          src="https://cdn.chatway.app/widget.js?id=grKyVYmXKMUD"
         ></script>
       </Head>
 
