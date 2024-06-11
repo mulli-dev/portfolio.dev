@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import StarCanvas from "@/components/main/StarCanvas";
 import Navbar from "@/components/main/Navbar";
@@ -19,6 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <script
+          id="pixel-chaty"
+          async
+          src="https://cdn.chaty.app/pixel.js?id=GhXkF5oM"
+        ></script>
+      </Head>
+
       <body
         className={`${inter.className} bg-[#030014]  overflow-y-scroll overflow-x-hidden`}
       >
