@@ -63,6 +63,24 @@ const Projects = () => {
           description="A good report analysed using  Power BI and SQL Server"
         />
       </div>
+      &nbsp,&nbsp
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/LoanReport.png"
+          title=" Bank Loan Analysis PowerBI Report"
+          description=" A good report analysed using  Power BI and SQL Server"
+        />
+        <ProjectCard
+          src="/carrent.png"
+          title=" A Car Rental site with A/B TESTING using Next.js 14"
+          description="Build Using Prepr CMS, React, Personalization"
+        />
+        <ProjectCard
+          src="/PowerBi.png"
+          title="Annual Pizza Sales Analysis PowerBI Report"
+          description="A good report analysed using  Power BI and SQL Server"
+        />
+      </div>
     </div>
   );
 };
