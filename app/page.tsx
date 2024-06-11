@@ -8,13 +8,11 @@ import Hero from "@/components/main/Hero";
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <Head>
-        <script
-          id="pixel-chaty"
-          async
-          src="https://cdn.chaty.app/pixel.js?id=GhXkF5oM"
-        ></script>
-      </Head>
+      <script
+        id="chatway"
+        async
+        src="https://cdn.chatway.app/widget.js?id=grKyVYmXKMUD"
+      ></script>
 
       <div className="flex flex-col  gap-20">
         <Hero />
