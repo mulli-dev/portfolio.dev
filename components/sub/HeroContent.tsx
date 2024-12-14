@@ -13,7 +13,7 @@ import Image from "next/image";
 const HeroContent = () => {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1UlYLw3ebZqhUvJmkY1Key7yEQWGnXgDc/view?usp=drive_link",
+      " https://drive.google.com/file/d/1w_xOt4MYtzkRpD1VJ_k2fzStUbWCcXRW/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     );
